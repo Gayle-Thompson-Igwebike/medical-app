@@ -1,1 +1,11 @@
 
+.footer{
+border: 3px solid black;
+margin: 40px;
+background-color: rgb(245, 221, 215);
+
+}
+
+#footer-address, li{
+list-style-type: none
+}
