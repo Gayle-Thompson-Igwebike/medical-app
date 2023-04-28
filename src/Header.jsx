@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import { faCircleUser } from "@fortawesome/free-solid-svg-icons";
 import NavBar from "./NavBar";
+import "./Header.css";
 
 function Header() {
   const [showMenu, setShowMenu] = useState(false);
