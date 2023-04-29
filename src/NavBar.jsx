@@ -1,10 +1,14 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faXmark } from "@fortawesome/free-solid-svg-icons";
-import "./Header.css";
+import "animate.css";
+import "./NavBar.css";
 
 function NavBar(props) {
   return (
-    <nav showMenu={props.showMenu} className="navbar">
+    <nav
+      showMenu={props.showMenu}
+      className="navbar animate__animated animate__slideInRight"
+    >
       <section className="btn">
         <button onClick={props.handleClose} className="close-btn">
           <FontAwesomeIcon icon={faXmark} />
