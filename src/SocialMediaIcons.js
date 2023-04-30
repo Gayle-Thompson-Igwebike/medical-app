@@ -1,43 +1,31 @@
 import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { icon } from "@fortawesome/fontawesome-svg-core/import.macro";
-// import { faInstagramSquare } from "@fortawesome/free-regular-svg-icons";
-// import { faFacebook } from "@fortawesome/free-brands-svg-icons";
+import facebookIcon from "./facebookicon.png";
+import twitterIcon from "./twitter.png";
+import instagramIcon from "./instagram.png";
+import linkedinIcon from "./linkedin.png";
 
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-// import { icon } from '@fortawesome/fontawesome-svg-core/import.macro'
-
-// <FontAwesomeIcon icon={icon({name: 'user-secret'})} /> // Defaults to the Classic family, Solid style
-// <FontAwesomeIcon icon={icon({name: 'coffee', style: 'regular'})} /> // Defaults to Classic family
-// <FontAwesomeIcon icon={icon({name: 'coffee', family: 'sharp', style: 'solid'})} /> // Setting both family and style
-// <FontAwesomeIcon icon={icon({name: 'twitter', style: 'brands'})} /> // A brand icon
 
 function SocialMediaIcons() {
   return (
     <div className="social-icons">
       <ul className="footericons">
+
         <div id="linkedin">
-          <li>Linkdin</li>
+            <img src={linkedinIcon} alt="linkedin" />
         </div>
+
         <div id="insta">
-          <li>
-            {/* Instagram: <FontAwesomeIcon icon={faInstagramSquare} fade />
-            <FontAwesomeIcon icon="fa-brands fa-square-instagram" fade /> */}
-          </li>
+            <img src={instagramIcon} alt="instagram" />
         </div>
+
         <div id="twitter">
-          <li>
-            Twitter:
-            <FontAwesomeIcon
-              icon={icon({ name: "twitter", style: "brands" })}
-            />
-          </li>
+            <img src={twitterIcon} alt="twitter" />
         </div>
+
         <div id="facebook">
-          <li>
-            {/* FaceBook: <FontAwesomeIcon icon={faFacebook} /> */}
-          </li>
+            <img src={facebookIcon} alt="facebook" />
         </div>
+        
       </ul>
     </div>
   );

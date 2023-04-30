@@ -1,0 +1,56 @@
+
+.footer {
+    /* border: 3px solid black;
+    margin: 10px;
+    background-color: rgb(245, 221, 215);
+    display: flex;
+    gap: 30px; */
+}
+
+.footer-container {
+    display: grid;
+    grid-template-columns: 20em 20em 20em;
+    background-color: rgb(242, 236, 240);
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+#footer-address,li {
+    list-style-type: none
+}
+
+#contactus-form{
+grid-template-columns: 20em, 20em;
+position: relative;
+
+/* position: relative;
+    margin: 0px 0px 0px 0;
+    left: 0px;
+    justify-self: end;
+    align-self: end;    */
+}
+
+.form-border{
+border: none;
+border-bottom: 2px solid rgb(0, 6, 0);
+padding: 10px;
+
+}
+
+#submitBtn {
+    max-width: 6rem;
+}
+
+/* #form-info{
+height: auto;
+width: 477px;
+background: transparent;
+border: 0;
+margin: 0;
+outline: 0;
+padding: 0;
+vertical-align: baseline;
+pointer-events: none;
+position: relative;
+} */
