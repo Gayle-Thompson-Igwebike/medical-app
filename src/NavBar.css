@@ -3,7 +3,7 @@
   flex-direction: column;
   align-items: center;
   width: 100%;
-  background: pink;
+  background: #eae2e4;
   height: 50em;
 }
 
@@ -19,6 +19,7 @@
   align-items: center;
   padding: 2em;
   font-size: 1.5em;
+  text-align: center;
 }
 
 .header-menu-items {
@@ -41,7 +42,7 @@
 .close-btn {
   font-size: 1.7em;
   border: none;
-  background: white;
+  background: #eae2e4;
 }
 
 .close-btn:hover {
