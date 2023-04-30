@@ -2,7 +2,8 @@ import React from "react";
 import ContactUsForm from "./ContactUsForm";
 import SocialMediaIcons from "./SocialMediaIcons";
 import "./Footer.css";
-import OperatingHours from "./OperatingHours";
+import SubmitButton from "./SubmitButton";
+
 
 
 
@@ -22,14 +23,14 @@ function Footer() {
           <li>{Name}</li>
           <li>{Address}</li>
           <li>{PostCode}</li>
-          <li>{Email}</li> <br></br>
+          <li>{Email}</li> <br></br> <br></br>
           <li>Telephone: {Tel}</li>
         </ul>
       </div>
       
-      <div id="operating-hours">
+      {/* <div id="operating-hours">
         <OperatingHours />
-      </div>
+      </div> */}
 
       <div id="contactus-form">
         <ContactUsForm />
@@ -38,6 +39,11 @@ function Footer() {
       <div id="socialmedia-icons">
         <SocialMediaIcons />
       </div>
+
+      <div id="submit-btn">
+        <SubmitButton/>
+      </div>
+
     </div>
   );
 }

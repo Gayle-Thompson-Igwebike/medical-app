@@ -8,7 +8,6 @@ import linkedinIcon from "./linkedin.png";
 function SocialMediaIcons() {
   return (
     <div className="social-icons">
-      <ul className="footericons">
 
         <div id="linkedin">
             <img src={linkedinIcon} alt="linkedin" />
@@ -26,7 +25,7 @@ function SocialMediaIcons() {
             <img src={facebookIcon} alt="facebook" />
         </div>
         
-      </ul>
+     
     </div>
   );
 }
