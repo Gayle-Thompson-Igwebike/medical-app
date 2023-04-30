@@ -21,8 +21,11 @@
   font-size: 1.5em;
 }
 
+.header-menu-items {
+  display: none;
+}
+
 .list-item {
-  margin-bottom: 1em;
   text-decoration: none;
   border-bottom: 2px solid black;
   padding: 1em;
@@ -31,7 +34,7 @@
 }
 
 .list-item:hover {
-  font-size: 1.2em;
+  font-size: 1.1em;
   font-weight: bold;
 }
 
@@ -41,8 +44,7 @@
   background: white;
 }
 
-.close-btn:hover,
-.menu-btn:hover {
+.close-btn:hover {
   font-size: 2em;
   font-weight: bold;
   cursor: pointer;
@@ -50,4 +52,10 @@
 
 .animate__animated.animate__slideInRight {
   --animate-duration: 0.8s;
+}
+
+@media screen and (min-width: 850px) {
+  .navbar {
+    display: none;
+  }
 }

@@ -20,11 +20,28 @@ function Header() {
               icon={faCircleUser}
               style={{ color: "#b6d1d9", width: "2em", height: "2em" }}
             />
-            <a href="/login">Log In</a>
+            <a href="/login">Log In/Register</a>
           </aside>
           <button onClick={toggleMenu} className="menu-btn">
             <FontAwesomeIcon icon={faBars} />
           </button>
+          <section className="header-menu-items">
+            <a href="/home" className="list-item">
+              Home
+            </a>
+            <a href="/about" className="list-item">
+              About Us
+            </a>
+            <a href="/team" className="list-item">
+              Meet the Team
+            </a>
+            <a href="/testimonials" className="list-item">
+              Testimonials
+            </a>
+            <a href="/contact" className="list-item">
+              Contact Us
+            </a>
+          </section>
         </aside>
       )}
       {showMenu && <NavBar showMenu={showMenu} handleClose={handleClose} />}
