@@ -11,6 +11,11 @@
   align-items: center;
   justify-content: center;
   background: palegreen;
+  height: 15em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .link {
@@ -57,4 +62,9 @@
 
 #four {
   background: mediumturquoise;
+}
+
+.doctor-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(16em, 1fr));
 }
