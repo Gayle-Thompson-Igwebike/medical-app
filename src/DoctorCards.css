@@ -49,7 +49,9 @@
 
 .profile-pic {
   width: 6em;
-  border-radius: 4em;
+  border-radius: 4em;}
+.link:visited {
+  color: black;
 }
 
 #two {
