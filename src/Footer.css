@@ -19,7 +19,7 @@ font-weight: 400;
 
 legend{
 margin-top: 4rem;
-margin-left: 16rem;
+margin-left: 14rem;
 margin-bottom: 1.5rem;
 justify-self: center;
 font-size: larger;
@@ -65,11 +65,20 @@ margin-bottom: 30px;
 margin-left: 2.5rem;
 }
 
-.submit-btn {
+button{
 padding: 15px;
+width: 8rem;
 margin-left: 26rem;
-font-size: large;
 border-style: none;
+font-size: 16px;
+background-color: rgb(255, 255, 255);
+text-align: center;
+transition-duration: 0.4s;
 }
 
+button:hover {
+background-color: #4CAF50;
+/* Green */
+color: white;
+}
 
