@@ -14,12 +14,6 @@ function DoctorCards() {
       .catch((error) => console.log(error));
   }
 
-  // function fetchImage() {
-  //   fetch("http://localhost:5151/doctors")
-  //     .then((response) => response.blob)
-  //     .then((data) => console.log(data));
-  // }
-
   useEffect(() => {
     fetchData();
   }, []);
