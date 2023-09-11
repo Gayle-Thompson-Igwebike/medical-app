@@ -7,6 +7,7 @@
 }
 
 .homepage-hero-wrapper {
+    width: 100%;
     margin-top: 150px;
     font-family: "Jost";
     background-color: #e6edee;
@@ -37,6 +38,13 @@
 
 @media only screen and (min-width: 375px) {
     .homepage-hero-logo-a {
+        margin-top: -55px;
+        font-size: 60px;
+    } 
+}
+
+@media only screen and (min-width: 768px) {
+    .homepage-hero-logo-a {
         margin-top: -60px;
         font-size: 126px;
     } 
@@ -44,13 +52,23 @@
 
 .homepage-hero-logo-b {
     font-size: 19px;
+    padding: 0;
 }
 
 @media only screen and (min-width: 375px) {
     .homepage-hero-logo-b {
         font-size: 36px;
+        margin-top: -30px;
     } 
 }
+
+@media only screen and (min-width: 768px) {
+    .homepage-hero-logo-b {
+        font-size: 36px;
+        margin-top: 0;
+    } 
+}
+
 
 .homepage-hero-about-wrapper {
     display: flex;
@@ -82,6 +100,12 @@
 @media only screen and (min-width: 375px) {
     .homepage-hero-about-img-wrapper {
         flex-direction: row;
+        gap: 2%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .homepage-hero-about-img-wrapper {
         gap: 1.2%;
     }
 }
@@ -95,7 +119,14 @@
 @media only screen and (min-width: 375px) {
     .homepage-hero-about-img-a {
         order: 1;
-        width: 32%;
+        width: 50%;
+     }
+}
+
+@media only screen and (min-width: 768px) {
+    .homepage-hero-about-img-a {
+        order: 1;
+        width: 33%;
      }
 }
 
@@ -109,6 +140,12 @@
         width: 100vw;
         object-fit: cover;
         order: 2;
+        width: 50%;
+     }
+}
+
+@media only screen and (min-width: 768px) {
+    .homepage-hero-about-img-b {
         width: 32%;
      }
 }
@@ -119,11 +156,17 @@
 
  @media only screen and (min-width: 375px) {
     .homepage-hero-about-img-c {
+        display: none;
+     }
+}
+
+@media only screen and (min-width: 768px) {
+    .homepage-hero-about-img-c {
         display: block;
         width: 100vw;
         object-fit: cover;
         order: 3;
-        width: 32%;
+        width: 33%;
      }
 }
 
@@ -134,7 +177,7 @@
 
 @media only screen and (min-width: 375px) {
     .homepage-hero-about-text-summary {
-      width: 80%;
+      width: 85%;
      }
 }
 
