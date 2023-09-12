@@ -229,22 +229,37 @@ color: white;
          grid-template-columns: 1fr;
          /* Single column layout for mobile */
          column-gap: 0;
-
-         /* Remove column gap on mobile */
      }
 
      .social-icons {
          margin: 30px 70px 20px;
          align-items: center;
-         /* Centered margin for mobile */
+        
      }
 
      button {
         margin-left: 6rem;
-         /* Centered button for mobile */
+         
      }
 
 
 
-     
- }
+      /* tablets (768px to 1023px) */
+    @media (min-width: 768px) and (max-width: 1023px) {
+    
+    .footer-container {
+    /* Adjust grid columns, padding, alignment, etc. for tablets */
+    grid-template-columns: 1fr 1fr;
+    /* Single column layout for mobile */
+    text-align: left;
+    margin: 0rem 1rem 0rem 1rem;
+    font-size: medium;
+}
+
+    .social-icons {
+    margin-left: 22rem;     
+    }
+
+   }
+    
+}
