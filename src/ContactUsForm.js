@@ -7,7 +7,7 @@ function ContactUsForm(){
      <div id="form-info">
        
          <div className="list-items">
-             <label htmlFor="name">Name:</label>
+             <label htmlFor="name">First Name:</label>
              <input
                className="form-border"
                type="text"
@@ -17,7 +17,7 @@ function ContactUsForm(){
          </div>
 
          <div className="list-items">
-             <label htmlFor="lastname">LastName:</label>
+             <label htmlFor="lastname">Last Name:</label>
              <input
                className="form-border"
                type="text"
