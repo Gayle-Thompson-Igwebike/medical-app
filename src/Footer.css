@@ -176,7 +176,7 @@ color: white;
      color: white;
  }
 
- /* Mobile Styles (up to 767px) */
+ /* Mobile Styles (375 up to 767px) */
  @media (max-width: 767px) {
      .footer-container {
          grid-template-columns: 1fr;
@@ -234,13 +234,17 @@ color: white;
      }
 
      .social-icons {
-         /* margin: 30px auto 20px; */
+         margin: 30px 70px 20px;
          align-items: center;
          /* Centered margin for mobile */
      }
 
      button {
-         margin: 0 auto;
+        margin-left: 6rem;
          /* Centered button for mobile */
      }
+
+
+
+     
  }
