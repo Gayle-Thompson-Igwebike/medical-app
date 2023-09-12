@@ -200,9 +200,9 @@ color: white;
      }
 
      legend {
-         margin: 2rem auto 1rem;
+         margin-left: 7rem;
          /* Centered margin for mobile */
-         font-size: larger;
+         font-size: medium;
          /* Slightly smaller font for mobile */
      }
 
