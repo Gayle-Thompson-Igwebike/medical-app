@@ -146,7 +146,9 @@
 
 @media only screen and (min-width: 768px) {
     .homepage-hero-about-img-b {
-        width: 32%;
+        width: 33%;
+        height: 150%;
+        /* border: 2px dotted red; */
      }
 }
 
@@ -154,16 +156,9 @@
     display: none;
  }
 
- @media only screen and (min-width: 375px) {
-    .homepage-hero-about-img-c {
-        display: none;
-     }
-}
-
 @media only screen and (min-width: 768px) {
     .homepage-hero-about-img-c {
         display: block;
-        width: 100vw;
         object-fit: cover;
         order: 3;
         width: 33%;
