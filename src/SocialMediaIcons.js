@@ -8,24 +8,22 @@ import linkedinIcon from "./linkedin.png";
 function SocialMediaIcons() {
   return (
     <div className="social-icons">
+      <div id="facebook">
+        <img src={facebookIcon} alt="facebook" />
+      </div>
 
-        <div id="linkedin">
-            <img src={linkedinIcon} alt="linkedin" />
-        </div>
+      <div id="linkedin">
+        <img src={linkedinIcon} alt="linkedin" />
+      </div>
 
-        <div id="insta">
-            <img src={instagramIcon} alt="instagram" />
-        </div>
+      <div id="twitter">
+        <img src={twitterIcon} alt="twitter" />
+      </div>
 
-        <div id="twitter">
-            <img src={twitterIcon} alt="twitter" />
-        </div>
-
-        <div id="facebook">
-            <img src={facebookIcon} alt="facebook" />
-        </div>
-        
-     
+      <div id="insta">
+        <img src={instagramIcon} alt="instagram" />
+      </div>
+      
     </div>
   );
 }

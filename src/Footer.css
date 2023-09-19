@@ -4,95 +4,6 @@
     margin: 0 auto;
     /* Center-aligns the container */
 }
-
-
-/* 
-.footer {
-padding: 20px;
-font-family: jost;
-}
-
-
-.footer-container {
-display: grid;
-grid-template-columns: auto auto;
-background-color: rgb(255, 255, 255);
-align-items: center;
-justify-content: center;
-padding: 1px;
-}
-.footer-address, li{
-list-style: none;
-font-weight: 400;
-}
-
-legend{
-margin-top: 4rem;
-margin-left: 14rem;
-margin-bottom: 1.5rem;
-justify-self: center;
-font-size: larger;
-font-weight: 600;
-text-decoration: solid underline;
-}
-
-#contactus-form{
-grid-template-columns: 20em, 20em;
-margin-left: 10rem;
-}
-
-.form-border{
-border: none;
-border-bottom: 1px solid rgb(0, 6, 0);
-padding: 20px;
-}
-
-.list-items{
-list-style-type: none;
-display: flex;
-flex-direction: column;
-width: 15rem;
-padding-top: 15px;
-}
-
-.list-msg-items{
-display: flex;
-flex-direction: column;
-width: 30rem;
-padding-top: 50px;
-}
-
-#form-info{
-display: grid;
-grid-template-columns: 15em 15em;
-column-gap: 15px;
-}
-
-.social-icons {
-display: grid;
-grid-template-columns: 4em 4em 4em 4em;
-margin-bottom: 30px;
-margin-left: 2.5rem;
-}
-
-button{
-padding: 15px;
-width: 8rem;
-margin-left: 26rem;
-border-style: none;
-font-size: 16px;
-background-color: rgb(255, 255, 255);
-text-align: center;
-transition-duration: 0.4s;
-}
-
-button:hover {
-background-color: #4CAF50;
-color: white;
-}
- */
-
- /* Base styles for all screen sizes */
  .footer {
      padding: 20px;
      font-family: jost;
@@ -149,9 +60,9 @@ color: white;
      padding-top: 50px;
  }
 
- #operating-hours{
+ /* #operating-hours{
     margin-top: -4rem;
- }
+ } */
 
  #form-info {
      display: grid;
@@ -161,10 +72,10 @@ color: white;
 
  .social-icons {
      display: grid;
-     align-items: center;
-     grid-template-columns: 4em 4em 4em 4em;
-     margin-top: 4rem;
-     margin-left: 2.5rem;
+     align-items: left;
+     grid-template-columns: 2.5em 2.5em 2.5em 2.5em;
+     margin-top: 2rem;
+     
  }
 
  button {
@@ -240,8 +151,8 @@ color: white;
      }
 
      .social-icons {
-         margin: 30px 70px 20px;
-         align-items: center;
+         margin: 0.5px;
+         align-items: left;
         
      }
 
