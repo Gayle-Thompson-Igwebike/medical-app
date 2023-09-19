@@ -25,13 +25,14 @@ function Footer() {
             <li>{Name}</li>
             <li>{Address}</li>
             <li>{PostCode}</li>
-            <li>{Email}</li> <br></br> 
+            <li>{Email}</li> <br></br>
             <li>Tel: {Tel}</li>
           </ul>
-        </div>
-        <div id="socialmedia-icons">
           <SocialMediaIcons />
         </div>
+        {/* <div id="socialmedia-icons">
+          <SocialMediaIcons />
+        </div> */}
         {/* 
         <div id="operating-hours">
           <OperatingHours />
