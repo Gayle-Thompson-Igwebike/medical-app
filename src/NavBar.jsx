@@ -15,7 +15,7 @@ function NavBar({ showMenu, handleClose }) {
         </button>
       </section>
       <section className="menu-items">
-        <a href="/home" className="list-item">
+        <a href="/home" className="list-item" id="home">
           Home
         </a>
         <a href="/about" className="list-item">
