@@ -23,7 +23,7 @@
     max-width: 1475px;
 }
 
-@media only screen and (min-width: 375px) {
+@media only screen and (min-width: 500px) {
     .homepage-hero-logo-wrapper {
         line-height: 6em;
         margin-bottom: 80px;
@@ -36,14 +36,14 @@
     font-weight: 600;
 }
 
-@media only screen and (min-width: 375px) {
+@media only screen and (min-width: 500px) {
     .homepage-hero-logo-a {
         margin-top: -55px;
         font-size: 60px;
     } 
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 820px) {
     .homepage-hero-logo-a {
         margin-top: -60px;
         font-size: 126px;
@@ -55,14 +55,14 @@
     padding: 0;
 }
 
-@media only screen and (min-width: 375px) {
+@media only screen and (min-width: 500px) {
     .homepage-hero-logo-b {
         font-size: 36px;
         margin-top: -30px;
     } 
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 820px) {
     .homepage-hero-logo-b {
         font-size: 36px;
         margin-top: 0;
@@ -97,14 +97,14 @@
     margin-bottom: 20px;
 }
 
-@media only screen and (min-width: 375px) {
+@media only screen and (min-width: 500px) {
     .homepage-hero-about-img-wrapper {
         flex-direction: row;
         gap: 2%;
     }
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 820px) {
     .homepage-hero-about-img-wrapper {
         gap: 1.2%;
     }
@@ -116,14 +116,14 @@
     object-fit: contain;
 }
 
-@media only screen and (min-width: 375px) {
+@media only screen and (min-width: 500px) {
     .homepage-hero-about-img-a {
         order: 1;
         width: 50%;
      }
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 820px) {
     .homepage-hero-about-img-a {
         order: 1;
         width: 33%;
@@ -134,7 +134,7 @@
     display: none;
  }
 
- @media only screen and (min-width: 375px) {
+ @media only screen and (min-width: 500px) {
     .homepage-hero-about-img-b {
         display: block;
         width: 100vw;
@@ -144,11 +144,10 @@
      }
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 820px) {
     .homepage-hero-about-img-b {
         width: 33%;
         height: 150%;
-        /* border: 2px dotted red; */
      }
 }
 
@@ -156,7 +155,7 @@
     display: none;
  }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 820px) {
     .homepage-hero-about-img-c {
         display: block;
         object-fit: cover;
@@ -170,7 +169,7 @@
     font-weight: 300;
 }
 
-@media only screen and (min-width: 375px) {
+@media only screen and (min-width: 500px) {
     .homepage-hero-about-text-summary {
       width: 85%;
      }
