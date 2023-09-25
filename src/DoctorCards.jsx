@@ -6,7 +6,7 @@ function DoctorCards() {
   const [doctors, setDoctors] = useState([]);
 
   function fetchData() {
-    fetch("http://localhost:5151/doctors")
+    fetch("https://medic-app-server-dthm.onrender.com/doctors")
       .then((response) => response.json())
       .then((data) => {
         setDoctors(data);
