@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Bruno+Ace+SC&family=Climate+Crisis&family=Fraunces:opsz,wght@9..144,700&family=Gelasio:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Hanken+Grotesk:wght@500;700;800&family=Inter:wght@400;700&family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lexend+Deca&family=Montserrat:wght@500;700&family=Quicksand:wght@300&family=Rock+Salt&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.homepage-hero-wrapper {
+    width: 100%;
+    margin-top: 150px;
+    font-family: "Jost";
+    background-color: #e6edee;
+}
+
+.homepage-hero-logo-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 2em;
+    margin-bottom: 40px;
+    max-width: 1475px;
+}
+
+@media only screen and (min-width: 375px) {
+    .homepage-hero-logo-wrapper {
+        line-height: 6em;
+        margin-bottom: 80px;
+    } 
+}
+
+.homepage-hero-logo-a {
+    margin-top: -20px;
+    font-size: 37px;
+    font-weight: 600;
+}
+
+@media only screen and (min-width: 375px) {
+    .homepage-hero-logo-a {
+        margin-top: -55px;
+        font-size: 60px;
+    } 
+}
+
+@media only screen and (min-width: 768px) {
+    .homepage-hero-logo-a {
+        margin-top: -60px;
+        font-size: 126px;
+    } 
+}
+
+.homepage-hero-logo-b {
+    font-size: 19px;
+    padding: 0;
+}
+
+@media only screen and (min-width: 375px) {
+    .homepage-hero-logo-b {
+        font-size: 36px;
+        margin-top: -30px;
+    } 
+}
+
+@media only screen and (min-width: 768px) {
+    .homepage-hero-logo-b {
+        font-size: 36px;
+        margin-top: 0;
+    } 
+}
+
+
+.homepage-hero-about-wrapper {
+    display: flex;
+    flex-direction: column;
+    max-width: 1475px;
+}
+
+.homepage-hero-about-text-wrapper {
+    order: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 15px;
+}
+
+.homepage-hero-about-img-wrapper {
+    height: auto;
+    order: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 1475px;
+    margin-bottom: 20px;
+}
+
+@media only screen and (min-width: 375px) {
+    .homepage-hero-about-img-wrapper {
+        flex-direction: row;
+        gap: 2%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .homepage-hero-about-img-wrapper {
+        gap: 1.2%;
+    }
+}
+
+.homepage-hero-about-img-a {
+    width: 100vw;
+    display: block;
+    object-fit: contain;
+}
+
+@media only screen and (min-width: 375px) {
+    .homepage-hero-about-img-a {
+        order: 1;
+        width: 50%;
+     }
+}
+
+@media only screen and (min-width: 768px) {
+    .homepage-hero-about-img-a {
+        order: 1;
+        width: 33%;
+     }
+}
+
+.homepage-hero-about-img-b {
+    display: none;
+ }
+
+ @media only screen and (min-width: 375px) {
+    .homepage-hero-about-img-b {
+        display: block;
+        width: 100vw;
+        object-fit: cover;
+        order: 2;
+        width: 50%;
+     }
+}
+
+@media only screen and (min-width: 768px) {
+    .homepage-hero-about-img-b {
+        width: 33%;
+        height: 150%;
+        /* border: 2px dotted red; */
+     }
+}
+
+.homepage-hero-about-img-c {
+    display: none;
+ }
+
+@media only screen and (min-width: 768px) {
+    .homepage-hero-about-img-c {
+        display: block;
+        object-fit: cover;
+        order: 3;
+        width: 33%;
+     }
+}
+
+.homepage-hero-about-text-summary {
+    text-align: center;
+    font-weight: 300;
+}
+
+@media only screen and (min-width: 375px) {
+    .homepage-hero-about-text-summary {
+      width: 85%;
+     }
+}
+
+.homepage-hero-about-text-title {
+    font-weight: 500;
+}
+
+.homepage-hero-about-text-btn {
+    margin-top: 10px;
+    border: none;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    background-color: transparent;
+    border-bottom: 1px solid black;
+}
+
+.homepage-hero-about-text-btn:hover {
+    cursor: pointer;
+}
