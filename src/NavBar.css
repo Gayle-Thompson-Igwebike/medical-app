@@ -4,11 +4,14 @@
   align-items: center;
   width: 100%;
   background: #eae2e4;
-  height: 50em;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  justify-content: flex-start;
 }
 
 .btn {
-  margin: 1.5em 2.5em 1.5em 1.5em;
+  /* margin: 5px; */
   display: flex;
   align-self: flex-end;
 }
@@ -17,7 +20,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 2em;
+  padding: 10px;
   font-size: 1.5em;
   text-align: center;
 }
@@ -28,15 +31,20 @@
 
 .list-item {
   text-decoration: none;
-  border-bottom: 2px solid black;
+  border-bottom: 1px solid black;
   padding: 1em;
   width: 8em;
   color: black;
 }
 
+#home {
+  color: #b6d1d9;
+}
+
 .list-item:hover {
   font-size: 1.1em;
   font-weight: bold;
+  text-decoration: none;
 }
 
 .close-btn {
