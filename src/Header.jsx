@@ -20,7 +20,7 @@ function Header() {
               icon={faCircleUser}
               style={{ color: "#b6d1d9", width: "2em", height: "2em" }}
             />
-            <a href="/login">Log In/Register</a>
+            <a href="/login">Log In</a>
           </aside>
           <button onClick={toggleMenu} className="menu-btn">
             <FontAwesomeIcon icon={faBars} />
