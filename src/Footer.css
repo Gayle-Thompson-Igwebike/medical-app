@@ -1,0 +1,188 @@
+.footer-page {
+    max-width: 100%;
+    /* Ensures the container does not exceed the screen width */
+    margin: 0 auto;
+    /* Center-aligns the container */
+}
+ .footer {
+     padding: 20px;
+     font-family: jost;
+ }
+
+ .footer-container {
+     display: grid;
+     grid-template-columns: auto auto auto;
+     background-color: rgb(255, 255, 255);
+     align-items: center;
+     justify-content: center;
+     padding: 1px;
+ }
+
+ .footer-address,
+ li {
+    list-style: none;
+     font-weight: 400;
+     margin-right: 2rem;
+ }
+
+ legend {
+     margin-top: 4rem;
+     margin-left: 14rem;
+     margin-bottom: 1.5rem;
+     justify-self: center;
+     font-size: larger;
+     font-weight: 600;
+     text-decoration: solid underline;
+ }
+
+ #contactus-form {
+     grid-template-columns: 20em, 20em;
+     margin-left: 0rem;
+ }
+
+ .form-border {
+     border: none;
+     border-bottom: 1px solid rgb(0, 6, 0);
+     padding: 20px;
+ }
+
+ .list-items {
+     list-style-type: none;
+     display: flex;
+     flex-direction: column;
+     width: 15rem;
+     padding-top: 15px;
+ }
+
+ .list-msg-items {
+     display: flex;
+     flex-direction: column;
+     width: 30rem;
+     padding-top: 50px;
+ }
+
+ /* #operating-hours{
+    margin-top: -4rem;
+ } */
+
+ #form-info {
+     display: grid;
+     grid-template-columns: 15em 15em;
+     column-gap: 15px;
+ }
+ #socialmedia-icons{
+    display: flex;
+    margin-top: 15rem;
+    margin-right: 0rem;
+ }
+
+ .social-icons {
+     display: grid;
+     align-items: center;
+     grid-template-columns: 2.5em 2.5em 2.5em 2.5em;
+     margin-top: 2rem;
+     margin-left: 2rem;
+ }
+
+ button {
+     padding: 15px;
+     width: 8rem;
+     margin-top: 1rem;
+     margin-left: 12rem;
+     border-style: none;
+     font-size: 16px;
+     background-color: rgb(255, 255, 255);
+     text-align: center;
+     transition-duration: 0.4s;
+ }
+
+ button:hover {
+     background-color: #4caf50;
+     color: white;
+ }
+
+ /* Mobile Styles (375 up to 767px) */
+ @media (max-width: 767px) {
+     .footer-container {
+         grid-template-columns: 1fr;
+         /* Single column layout for mobile */
+         text-align: left;
+         margin: 0rem 1rem 0rem 1rem;
+         font-size: medium;
+       
+         /* Center align content on mobile */
+     }
+
+     /* Adjust padding, margin, font sizes, etc. for mobile */
+     .footer-address,
+     li {
+        list-style-type: none;
+         font-weight: 400;
+         margin-right: 1rem;
+         padding: inherit;
+         
+         /* Adjust font weight for better readability on small screens */
+     }
+
+     legend {
+         margin-left: 7rem;
+         /* Centered margin for mobile */
+         font-size: medium;
+         /* Slightly smaller font for mobile */
+     }
+
+     #contactus-form {
+         grid-template-columns: 1fr;
+         /* Single column layout for mobile */
+         margin-left: 0;
+         
+         /* Remove margin on mobile */
+     }
+
+     .form-border {
+         padding: 10px;
+         /* Smaller padding on mobile */
+     }
+
+     .list-items,
+     .list-msg-items {
+         width: auto;
+         /* Let content flow naturally on mobile */
+     }
+
+     #form-info {
+         grid-template-columns: 1fr;
+         /* Single column layout for mobile */
+         column-gap: 0;
+     }
+
+     .social-icons {
+         margin: 0.5px;
+         align-items: left;
+        
+     }
+
+     button {
+        margin-left: 6rem;
+         
+     }
+
+
+
+      /* tablets (768px to 1023px) */
+    @media (min-width: 768px) and (max-width: 1023px) {
+    
+    .footer-container {
+    /* Adjust grid columns, padding, alignment, etc. for tablets */
+    grid-template-columns: 1fr 1fr;
+    text-align: left;
+    margin: 0rem 1rem 0rem 1rem;
+    font-size: medium;
+}
+    .social-icons { 
+    margin-left: 22rem;     
+    }
+
+   }
+    
+}
