@@ -18,9 +18,10 @@ function Header() {
           <aside className="login">
             <FontAwesomeIcon
               icon={faCircleUser}
-              style={{ color: "#b6d1d9", width: "2em", height: "2em" }}
+              style={{ color: "#b6d1d9" }}
+              className="user-icon"
             />
-            <a href="/login">Log In</a>
+            <a href="/login" className="login-btn">Log In</a>
           </aside>
           <button onClick={toggleMenu} className="menu-btn">
             <FontAwesomeIcon icon={faBars} />
@@ -33,7 +34,7 @@ function Header() {
               About Us
             </a>
             <a href="/team" className="list-item">
-              Meet the Team
+              The Team
             </a>
             <a href="/testimonials" className="list-item">
               Testimonials
