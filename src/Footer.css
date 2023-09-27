@@ -84,11 +84,10 @@
      margin-left: 2rem;
  }
 
- button {
+ .btn-submit {
      padding: 15px;
      width: 8rem;
      margin-top: 1rem;
-     margin-left: 12rem;
      border-style: none;
      font-size: 16px;
      background-color: rgb(255, 255, 255);
@@ -96,7 +95,7 @@
      transition-duration: 0.4s;
  }
 
- button:hover {
+ .btn-submit:hover {
      background-color: #4caf50;
      color: white;
  }
