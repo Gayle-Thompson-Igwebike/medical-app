@@ -3,9 +3,6 @@ import ContactUsForm from "./ContactUsForm";
 import SocialMediaIcons from "./SocialMediaIcons";
 import "./Footer.css";
 import SubmitButton from "./SubmitButton";
-import OperatingHours from "./OperatingHours";
-
-
 
 
 function Footer() {
@@ -30,14 +27,6 @@ function Footer() {
           </ul>
           <SocialMediaIcons />
         </div>
-        {/* <div id="socialmedia-icons">
-          <SocialMediaIcons />
-        </div> */}
-        {/* 
-        <div id="operating-hours">
-          <OperatingHours />
-        </div> */}
-
         <div id="contactus-form">
           <ContactUsForm />
 
