@@ -1,0 +1,47 @@
+.App {
+  text-align: center;
+}
+
+.card {
+  padding: 2em;
+  background: #ccc6c6;
+  height: 15em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.link {
+  text-decoration: none;
+  border-bottom: 2px black solid;
+  padding: 0.5em;
+  color: black;
+}
+
+.link:active,
+.link:visited {
+  color: black;
+}
+
+#two {
+  background: #f0eded;
+}
+
+#three {
+  background: #fadcd6;
+}
+
+#four {
+  background: #e5c7b5;
+}
+
+.doctor-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(16em, 1fr));
+}
+
+.profile-pic {
+  width: 6em;
+  border-radius: 4em;
+}
