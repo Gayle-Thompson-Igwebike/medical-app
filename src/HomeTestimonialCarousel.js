@@ -1,5 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import "./HomeTestimonial.css";
+import quoteLeft from "./quote-left.png"
+import quoteRight from "./quote-right.png"
 import "animate.css";
 
  const homeTestimonials = [
@@ -45,12 +47,13 @@ function HomeTestimonialCarousel() {
       <div className="testimonial ">
         <div className="carousel-wrapper" ref={carouselWrapperRef}>
           <div className="carousel-card-wrapper">
+            <img src={quoteLeft} alt="quote-left" className="quotes"/>
             <div className="quote-container">
               <p className="quote">{homeTestimonials[0].quote}</p>
             </div>
+            <img src={quoteRight} alt="quote-right" className="quotes"/>
             <p className="name-age">
-              {homeTestimonials[0].name}{" "}
-              {homeTestimonials[0].age}
+              {homeTestimonials[0].name} {homeTestimonials[0].age}
             </p>
           </div>
 
@@ -59,8 +62,7 @@ function HomeTestimonialCarousel() {
               <p className="quote">{homeTestimonials[1].quote}</p>
             </div>
             <p className="name-age">
-              {homeTestimonials[1].name}{" "}
-              {homeTestimonials[1].age}
+              {homeTestimonials[1].name} {homeTestimonials[1].age}
             </p>
           </div>
 
@@ -69,8 +71,7 @@ function HomeTestimonialCarousel() {
               <p className="quote">{homeTestimonials[2].quote}</p>
             </div>
             <p className="name-age">
-              {homeTestimonials[2].name}{" "}
-              {homeTestimonials[2].age}
+              {homeTestimonials[2].name} {homeTestimonials[2].age}
             </p>
           </div>
         </div>
@@ -82,7 +83,6 @@ function HomeTestimonialCarousel() {
           <button className="after-button" onClick={nextTestimonial}>
             .
           </button>
-        
         </div>
       </div>
     </div>
