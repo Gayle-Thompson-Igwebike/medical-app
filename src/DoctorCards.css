@@ -9,16 +9,23 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background: palegreen;
-  height: 15em;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 
-.card h5 {
+.doc-name {
+  font-size: 19px;
+}
+
+.doc-spec {
+  font-size: 17px;
+}
+
+.doc-cert {
   margin-top: 0;
+  font-size: 15px;
 }
 
 .link {
@@ -52,7 +59,8 @@
 
 .profile-pic {
   width: 6em;
-  border-radius: 4em;}
+  border-radius: 4em;
+}
 .link:visited {
   color: black;
 }
