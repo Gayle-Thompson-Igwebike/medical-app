@@ -7,8 +7,8 @@ function DoctorCards({ doctors }) {
       {doctors &&
         doctors.map((doctor) => (
           <div className="card" id={doctor.id} key={doctor.id}>
-            <img src={doctor.imageURL} alt="selfie" className="profile-pic" />
-            <h3 className="animate__animated animate__slideInDown doc-name" >
+              <img src={doctor.imageURL} alt="selfie" className="profile-pic" />
+            <h3 className="animate__animated animate__slideInDown doc-name">
               Dr {doctor.first_name} {doctor.last_name}
             </h3>
             <h4 className="doc-spec">{doctor.discipline} specialist</h4>

@@ -17,15 +17,16 @@
 
 .doc-name {
   font-size: 19px;
+  margin-top: 15px;
 }
 
 .doc-spec {
-  font-size: 17px;
+  font-size: 15px;
 }
 
 .doc-cert {
   margin-top: 0;
-  font-size: 15px;
+  font-size: 13px;
 }
 
 .link {
@@ -58,8 +59,9 @@
 }
 
 .profile-pic {
-  width: 6em;
+  width: 96px;
   border-radius: 4em;
+  height: 145px;
 }
 .link:visited {
   color: black;
