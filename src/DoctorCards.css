@@ -5,11 +5,28 @@
 .card {
   padding: 2em;
   background: #ccc6c6;
-  height: 15em;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.doc-name {
+  font-size: 19px;
+  margin-top: 15px;
+}
+
+.doc-spec {
+  font-size: 15px;
+}
+
+.doc-cert {
+  margin-top: 0;
+  font-size: 13px;
 }
 
 .link {
@@ -39,6 +56,33 @@
 .doctor-cards {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(16em, 1fr));
+}
+
+.profile-pic {
+  width: 96px;
+  border-radius: 4em;
+  height: 145px;
+}
+.link:visited {
+  color: black;
+}
+
+[id="2"] {
+  background: #f0eded;
+}
+
+[id="3"] {
+  background: #fadcd6;
+}
+
+[id="4"] {
+  background: #e5c7b5;
+}
+
+.doctor-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(16em, 1fr));
+  grid-template-rows: repeat(4, 400px);
 }
 
 .profile-pic {
